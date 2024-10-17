@@ -1,4 +1,4 @@
-##TOGGLE FOR NAV-BAR
+## TOGGLE FOR NAV-BAR
 
 
 ```react
@@ -37,6 +37,8 @@ const Navbar = () => {
           <a href="/contact" className="navbar-item">Contact</a>
           <button type="button" class="btn btn-warning  fw-bold">DOWNLOAD APP</button>
         </div>
+
+        //toggle ka button crate hua yeha with span each span is one line
         <div className="navbar-toggle" onClick={toggleMenu}>
           <span className="bar"></span>
           <span className="bar"></span>
